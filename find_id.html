@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>아이디 찾기</title>
+    
+
+
+</head>
+<body>
+    <div class="find_id_container">
+        <div class="title">
+            <h1>타이틀 logo나 이름이 들어갈 자리입니다</h1>
+        </div>
+        <form action="" class="find">
+            <fieldset class="name_field">
+                <legend><label><input type="radio" class="how_to" name="how_to"> 이름 및 전화번호로 찾기</label></legend>
+                    <div class="to_name">
+                        <div class="name_input">
+                            <table>
+                                <tr>
+                                    <td >이 &nbsp;&nbsp;&nbsp;&nbsp;름</td>
+                                    <td><input type="text" class="name_for_id"></td>
+                                </tr>
+                                <tr>
+                                    <td>전화번호</td>
+                                    <td><input type="tel" class="name_for_id"></td>
+                                </tr>    
+                            </table>
+                        </div><!--.name_input-->
+                    </div><!--.to_name-->
+                </fieldset><!--.name_field-->
+            
+            <fieldset class="email_field">
+                <legend><label><input type="radio" class="how_to" name="how_to"> 이메일 주소로 찾기</label></legend>
+                    <div class="to_email">
+                        <div class="email_input">
+                            이메일 <input type="email" class="email_for_id"> @ 
+                                <input type="text" class="email_write" hidden="true">
+                                <select name="" id="" >
+                                    <option>naver.com</option>
+                                    <option>gmail.com</option>
+                                    <option>daum.net</option>
+                                    <option>nate.com</option>
+                                    <option>직접입력</option>
+                                </select>
+                            </div> <!--.email_input-->
+                    </div> <!--.to_email-->
+            </fieldset> <!--.email_field-->
+            <div class="find_id_buttons">
+                <button type="submit" class="find_id_button">확 인</button>
+                <button type="reset" class="find_id_button">취 소</button>
+            </div><!--.buttons-->
+        </form> <!--.find-->
+    </div><!--.find_id_container-->
+</body>
+</html>
