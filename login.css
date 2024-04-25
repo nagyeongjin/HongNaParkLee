@@ -1,0 +1,46 @@
+@charset "UTF-8";
+* {
+    margin: auto;
+    text-align: center;
+    text-decoration: none;
+}
+
+.title {
+    /* background-color: pink; */
+    margin-top: 50px;
+    height: 50px;
+}
+.login_title {
+    padding: 20px;
+    font-size: 30px;
+}
+.login_box {
+    /* background-color: pink; */
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.input_wrap{
+    /* background-color: yellow; */
+    margin-bottom: 10px;
+}
+.id_line, .pw_line{
+    margin-bottom: 10px;
+}
+.login_input_box {
+    width: 200px;
+    height: 20px;
+}
+.login_button{
+    width: 200px;
+    height: 30px;
+}
+ul {
+    list-style: none;
+}
+.find_wrap{
+    display: flex;
+    margin-bottom: 50px;
+}
+.sns_login{
+    display: flex;
+}
