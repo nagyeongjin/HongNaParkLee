@@ -1,0 +1,114 @@
+* {
+	margin:0;
+	padding:0;
+	background-color: #1f1e1e;
+}
+
+.wrap {
+	width:1280px;
+	margin:0 auto;
+	background-color: #1f1e1e;
+}
+
+header {
+	position:relative;
+	margin-top: 150px;
+}
+
+.search {
+	width:700px;
+	margin-top: 150px;
+	margin: auto;
+	margin-bottom: 150px;
+	border: 1px solid #313030;
+}
+
+.search .search-field {
+	width:600px;
+	background:#ccc;
+	color:#313030;
+	font-size: 18px;
+	font-weight: bolder;
+	padding: 10px 0 10px 10px;
+}
+
+.search .btn {
+	font-size:18px;
+	color:#d1d1d1;
+	cursor:pointer;
+	padding: 10px;
+}
+
+.line{
+	border: solid 5px;
+	color: #2E2E2E;
+	margin-top: -2px;
+	margin-bottom:-2px;
+}
+
+.main{
+	margin-top: 20px;
+}
+
+.box {
+	width:1280px;
+	margin-bottom:80px;
+	display: flex;
+	justify-content: space-around;
+}
+
+.box .movie {
+	width:250px;
+}
+
+.movie-image img {
+	width:250px;
+	height:300px;
+}
+
+.movie-image a {
+	float:left;
+	width:250px;
+	height:300px;
+	position:relative;
+	margin-bottom: 8px;
+}
+
+.movie .name {
+	font-weight:bold;
+	color:#ece9e9;
+	font-size: 16px;
+	text-align:center;
+	display:block;
+}
+
+footer{
+	margin-top: 70px;
+	margin-right:50px;
+}
+
+.footer_info{
+	color: #8f8f8f;
+	margin-left: 300px;
+	font-size:15px;
+	padding: 50px 0;
+	width: 80%;
+}
+
+.team_name{
+	color: #ccc;
+	width: 220px;
+	font-weight: bold;
+	font-size: 25px;
+}
+
+.footer_info ul {
+	padding: 25px 0;
+}
+
+.footer_info li{
+	position: relative; 
+	display: inline; 
+	padding-right: 16px; 
+	margin-right:10px;
+}
