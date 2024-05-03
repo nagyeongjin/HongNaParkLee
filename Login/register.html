@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <!-- JS, Popper.js, and jQuery -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+  integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+  crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+  integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+  crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+  integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+  crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="./css/register.css">
+</head>
+<body>
+    <div class = "register_container">
+		<div class="register_wrapper"> 
+				<h1 style="font-size: 45px; text-align: center; margin-top:10%; color:white;">WUM이미지</h1> 
+			<div class="register_box">			
+
+					<h1 style = "text-align: center; color:white;">회원가입</h1>
+					
+                <form action="">
+                    <label class = "lab">아이디 </label><br>	<!-- 아이디 입력 -->				
+                    <input type="text" class="register_input" placeholder="아이디 입력(5~10자)" name="id" id="id">
+                    <input class ="certi_btn" type="button" value="중복 확인">	 <!-- 아이디 중복 검사 -->			
+                
+					<br>
+					
+                    <label class = "lab">비밀번호 </label> <!-- 비밀번호 입력 -->	
+                    <input type="password" class="register_input" placeholder="비밀번호(숫자,영문,특수문자 조합 최소8자)" name="password" id="pw">
+					
+					<br>
+
+					<label class = "lab">비밀번호 다시 입력 </label> <!-- 비밀번호 재입력 -->					
+					<input type="password" class="register_input" placeholder="비밀번호(숫자,영문,특수문자 조합 최소8자)" name="password_CK" id="pw2">
+					
+					<br>
+
+				
+					<label class = "lab">이름</label> <!-- 이름 입력 -->
+					<input type="text" class="register_input" placeholder="이름 입력" name="user_name" id="name">
+					
+					<br>
+                    <label class = "lab">생년월일</label> <!-- 생년월일 입력 -->
+                    <br>
+                    <select name="user_year" id="user_year" class="custom_select"></select>
+                    <select name="user_month" id="user_month" class="custom_select"></select>
+                    <select name="user_day" id="user_day" class="custom_select"></select>
+            
+					<br>
+
+					<label class = "lab">이메일 </label> <!-- 이메일 입력 -->
+					<input type="text" class="register_input" placeholder="이메일 입력" name="user_email" id="email">
+
+					<br>
+
+					<label class = "lab">휴대전화 </label> <!-- 전화번호 입력 -->
+					<input type="text" class="register_input" placeholder="(-) 없이 숫자만 입력하세요" name="user_phone" id="phone">
+
+					<br>
+                    <br>
+					<input type = "submit" class="register_btn" value="회원가입">
+                </form>
+			</div><!--.register_box-->
+		</div><!--.register_wrapper-->
+	</div><!--.register_container-->  
+    <script src="./js/register.js"></script>
+</body>
+</html>
