@@ -8,7 +8,6 @@ function certiBtnHide(){
 }
 
 function findId(){
-
     let name = document.getElementById("find_name").value;
     let phone = document.getElementById("find_phone").value;
     if (!name || !phone) {
