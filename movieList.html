@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>영화목록관리(관리자ver)</title>
+    <link rel="stylesheet" href="./css/movieList.css">
+</head>
+
+<body>
+    <div class="wrap">
+        <h1>영화목록관리(관리자ver)</h1>
+        <form class="listform" action="" method="post">
+            <table border="1">
+                <tr>
+                    <th width="20"><input type="checkbox" id="selectAll"></th>
+                    <th width="80">영화번호</th>
+                    <th width="100">장르</th>
+                    <th width="250">영화제목</th>
+                    <th width="70">개봉년도</th>
+                    <th width="80">감독</th>
+                    <th width="80">출연</th>
+                    <th width="400">줄거리</th>
+                    <th width="80">관람등급</th>
+                </tr>
+                <tr align="center">
+                    <td><input type="checkbox" class="movieCheckbox"></td>
+                    <td>영화번호</td>
+                    <td>장르</td>
+                    <td>
+                        <a href="./editMovie.html">영화제목</a>
+                    </td>
+                    <td>개봉년도</td>
+                    <td>감독</td>
+                    <td>출연</td>
+                    <td>줄거리</td>
+                    <td>관람등급</td>
+                </tr>
+                <tr align="center">
+                    <td><input type="checkbox" class="movieCheckbox"></td>
+                    <td>test1</td>
+                    <td>test1</td>
+                    <td>
+                        <a href="./editMovie.html">test1</a>
+                    </td>
+                    <td>test1</td>
+                    <td>test1</td>
+                    <td>test1</td>
+                    <td>test1</td>
+                    <td>test1</td>
+                </tr>
+                <tr>
+                    <td colspan="8" align="center">
+                        <a href=""><<</a>
+                        <a href="">1</a>
+                        <a href="">2</a>
+                        <a href="">3</a>
+                        <a href="">4</a>
+                        <a href="">5</a>
+                        <a href="">6</a>
+                        <a href="">7</a>
+                        <a href="">8</a>
+                        <a href="">9</a>
+                        <a href="">>></a>
+                    </td>
+                    <td align="center">
+                        <a href="./addMovie.html">등록</a>
+                        <a href="">삭제
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+
+    <script src="./js/movieList.js"></script>
+</body>
+</html>

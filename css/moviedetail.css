@@ -1,0 +1,143 @@
+* {
+	margin:0;
+	padding:0;
+	/* background-color: #1f1e1e; */
+}
+
+header {
+	position:relative;
+	margin-top: 150px;
+}
+
+.line {
+	border: solid 5px;
+	color: #2E2E2E;
+	margin-top: -2px;
+	margin-bottom:-2px;
+}
+
+.container {
+	position: relative; 
+	width: 1280px; 
+	margin: 0 auto;
+}
+
+.poster {
+	margin-top: 80px;	
+	width: 250px;
+	height: 480px;
+	margin-bottom: 70px;
+}
+
+.movie_title {
+	font-size: 30px;
+	font-weight: 500;
+	color:rgb(17, 12, 12);
+}
+
+.movie_date {
+	font-size: 18px;
+	margin-top: 15px;
+	color:rgb(17, 12, 12);
+	margin-bottom: 15px;
+}
+
+.movie_content {
+	position: absolute; 
+	top: 80px; 
+	width: 650px;
+	margin-left: 300px; 
+	box-sizing: border-box;
+	font-size: 16px;
+	color: #8f8f8f;
+}
+
+.heart_icon {
+	margin-top: -450px; 
+	margin-left: 180px;
+	cursor: pointer;
+}
+
+/* 평점과 후기 */
+.review_form fieldset {
+	display: inline-block;
+	direction: rtl;
+	border:0;
+	margin-top: 20px;
+}
+.review_form fieldset legend {
+	text-align: right;
+}
+
+.review_form input[type=radio] {
+	display: none;
+}
+
+.review_form label{
+	font-size: 45px;
+	color: transparent;
+	text-shadow: 0 0 0 #f0f0f0;
+}
+
+.review_form label:hover,
+.review_form label:hover ~ label,
+.review_form input[type=radio]:checked ~ label{
+	text-shadow: 0 0 0 rgba(250, 208, 0, 0.99);
+}
+
+.review {
+	width: 60%;
+	height: 50px;
+	padding: 10px;
+	box-sizing: border-box;
+	border: solid 1.5px #D3D3D3;
+	border-radius: 5px;
+	font-size: 16px;
+	resize: none;
+	margin-bottom: 50px;
+	margin-top: 10px;
+}
+
+.review_btn {
+	padding: 15px;
+	border-radius: 5px;
+	border: solid 1.5px #D3D3D3;
+	font-size: 16px;
+}
+
+footer {
+	background-color: #1f1e1e;
+	margin-top: 70px;
+	margin-right:50px;
+}
+
+.footer_info {
+	color: #8f8f8f;
+	margin-left: 300px;
+	font-size:15px;
+	padding: 50px 0;
+	width: 80%;
+}
+
+.footer_info h2 img {
+	width: 150px;
+}
+
+.footer_info ul {
+	padding: 15px 0;
+}
+
+.footer_info li {
+	position: relative; 
+	display: inline; 
+	padding-right: 16px; 
+	margin-right:10px;
+}
+
+#team {
+	display: inline-block;
+	width: 220px;
+	font-weight: bold;
+	font-size: 25px;
+	margin-bottom: 20px;
+}
