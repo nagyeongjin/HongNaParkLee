@@ -4,36 +4,46 @@
     <meta charset="UTF-8">
 	<link rel="stylesheet" href="./css/find.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WUM이미지</title>
+    <title>WUM</title>
 </head>
 <body>
     <div class = "find_container">
 		<div class="find_wrapper"> 	
+			<h1 style="font-size: 45px; text-align: center; margin-top:10%; color:white;">WUM이미지</h1> 
 			<div class = "find_box">
 				
 				<h1 style = "text-align: center; color:white;">아이디 찾기</h1>
 				
 				<form action="">
 					<label class ="lab">이름</label><br> <!-- 휴대전화 입력 -->
-					<input type='text' class="find_input" name='name' placeholder='이름 입력' id="find_name"><br><br>
+					<input type='text' class="find_input" name='name' placeholder='이름 입력' id="find_name">
+					<br><br>
 					
 					<label class ="lab">휴대전화</label><br> <!-- 휴대전화 입력 -->
 					<input type='text' class="find_input" name='phone' placeholder='휴대전화 입력(-없이)' id="find_phone">
 				
 					<br><br>
-					
-					<input type="button" class="find_btn" value="인증번호 받기"> <!-- 받기클릭시 certi_btn : hidden true로 변경,-->
-					<label class ="lab">인증번호 입력</label> <!-- 인증번호 입력 -->
-					<input type='text' class="find_input" name='phone' placeholder='인증번호 6자리 숫자 입력' id="certification_number">
-					<input type="submit" class="certi_btn" id="certi_btn" value="인증 확인" hidden="true">
-					<!---->
-					<br><br>
-					
+		
 					<!-- "아이디 찾기" 버튼 클릭시 빈칸이나 오타있는지 정규식으로 확인 -->
-					<input type="submit" class="find_btn" id="find_id_btn" value="아이디 찾기">
+					<!-- 이름의 양식은 회원가입때 거를 예정이라 별도로 함수에 추가하지 않음-->
+
+					<!-- submit으로 사용하고 모달은 불가능한지 ?-->
+					<!-- submit으로 하고 html을 만들어서 popup을 해야하는지?-->
+					<input type="submit" class="find_btn" id="find_id_btn" value="아이디 찾기" onclick="findId()">
+					<!-- 인증이 정상적으로 넘어가면 이름과 등록된 전화번호로 DB에서 검색후 리턴-->
+					<div class="id_window" id="id_window">
+						<div class="id_body">
+							<h2>아이디 찾기 결과</h2>
+							<p>아이디는 ~입니다</p>
+							<div class="closeBtn">
+								<input type="button" class="id_close" value="확인" id="id_close" onclick="idClose()">
+							</div><!--.idCloseBtn-->
+						</div> <!--.id_body-->
+					</div><!--.id_winodw-->
 					
 					<hr style="border: solid 1px; color:gray;"><br>
 				</form>
+
                 <form action="">
 					
 					<h1 style = "text-align: center; color:white;">비밀번호 찾기</h1>
@@ -49,10 +59,25 @@
 					<input type='text' class="find_input" name='phone' placeholder='휴대전화 입력(-없이)' id="find_phone2"><br><br>
 					
 					<!-- "비밀번호 찾기" 버튼 클릭시 빈칸이나 오타있는지 정규식으로 확인  -->
-					<input type="submit" class="find_btn" id="find_pw_btn" value="비밀번호 찾기" >
+					<input type="button" class="find_btn" id="find_pw_btn" value="비밀번호 찾기" onclick="findPassword()">
+					<!-- 아이디,이름,전화번호가 DB내용과 일치하면 새로운 비밀번호로 업데이트 -->
+					<div class="update_pw_window" id="update_pw_window">
+						<div class="update_pw_body">
+							<h2 style="text-align: center;">비밀번호 변경</h2>
+
+							<label class = "lab">새 비밀번호 </label> <!-- 비밀번호 입력 -->	
+                  			<input type="password" class="find_input" placeholder="비밀번호(숫자,영문,특수문자 조합 최소8자)" name="password" id="pw">
+							<label class = "lab" >새 비밀번호확인 </label> <!-- 비밀번호 입력 -->	
+							<input type="password" class="find_input" placeholder="비밀번호(숫자,영문,특수문자 조합 최소8자)" name="password2" id="pw2">
+							<div class="closeBtn">
+								<input type="submit" class="update_close" value="확인" id="update_close" onclick="updateClose()" >
+							</div><!--.closeBtn-->
+						</div> <!--.update_pw_body-->
+					</div> <!--.update_pw_window-->
 				</form>
 			</div><!--.find-box-->
 		</div><!--.find_wrapper-->
 	</div><!--.find_container-->
+	<script src="./js/find.js"></script>
 </body>
 </html>
