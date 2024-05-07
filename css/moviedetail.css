@@ -1,12 +1,17 @@
 * {
 	margin:0;
 	padding:0;
-	/* background-color: #1f1e1e; */
+	background-color: #1f1e1e;
 }
 
 header {
-	position:relative;
 	margin-top: 150px;
+}
+
+.wrap {
+	width:1280px;
+	margin:0 auto;
+	background-color: #1f1e1e;
 }
 
 .line {
@@ -32,13 +37,13 @@ header {
 .movie_title {
 	font-size: 30px;
 	font-weight: 500;
-	color:rgb(17, 12, 12);
+	color: #8f8f8f;
 }
 
 .movie_date {
 	font-size: 18px;
 	margin-top: 15px;
-	color:rgb(17, 12, 12);
+	color: #8f8f8f;
 	margin-bottom: 15px;
 }
 
@@ -58,6 +63,10 @@ header {
 	cursor: pointer;
 }
 
+.heart_icon img {
+	width: 30px;
+}
+
 /* 평점과 후기 */
 .review_form fieldset {
 	display: inline-block;
@@ -65,7 +74,12 @@ header {
 	border:0;
 	margin-top: 20px;
 }
-.review_form fieldset legend {
+
+.text-bold {
+	color: #8f8f8f;
+}
+
+.review_form fieldset {
 	text-align: right;
 }
 
@@ -103,6 +117,7 @@ header {
 	border-radius: 5px;
 	border: solid 1.5px #D3D3D3;
 	font-size: 16px;
+	color: #8f8f8f;
 }
 
 footer {

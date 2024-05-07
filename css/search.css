@@ -7,7 +7,6 @@
 .wrap {
 	width:1280px;
 	margin:0 auto;
-	background-color: #1f1e1e;
 }
 
 header {
@@ -15,17 +14,11 @@ header {
 	margin-top: 150px;
 }
 
-/* header */
-
-/* header 끝 */
-
-
 .search {
 	width:700px;
 	margin-top: 150px;
 	margin: auto;
 	margin-bottom: 150px;
-	border: 1px solid #313030;
 }
 
 .search .search-field {
@@ -66,17 +59,17 @@ header {
 	width:250px;
 }
 
-.movie-image img {
-	width:250px;
-	height:300px;
-}
-
 .movie-image a {
 	float:left;
 	width:250px;
 	height:300px;
 	position:relative;
 	margin-bottom: 8px;
+}
+
+.movie-image img {
+	width:250px;
+	height:300px;
 }
 
 .movie .name {
@@ -87,6 +80,9 @@ header {
 	display:block;
 }
 
+
+
+/* footter */
 footer {
 	margin-top: 70px;
 	margin-right:50px;
