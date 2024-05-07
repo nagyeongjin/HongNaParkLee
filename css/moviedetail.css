@@ -100,25 +100,34 @@ header {
 }
 
 .review {
-	width: 60%;
-	height: 50px;
-	padding: 10px;
-	box-sizing: border-box;
-	border: solid 1.5px #D3D3D3;
-	border-radius: 5px;
-	font-size: 16px;
-	resize: none;
-	margin-bottom: 50px;
-	margin-top: 10px;
-}
-
-.review_btn {
+	width: 800px;
 	padding: 15px;
-	border-radius: 5px;
 	border: solid 1.5px #D3D3D3;
+	border-radius: 5px;
 	font-size: 16px;
 	color: #8f8f8f;
+	margin-bottom: 40px;
+	margin-top: 15px;
 }
+
+button {
+	padding: 13px;
+	border-radius: 5px;
+	border: solid 1.5px #D3D3D3;
+	font-size: 18px;
+	color: #8f8f8f;
+}
+
+button:hover {
+	background-color:#D3D3D3;
+}
+
+#my_review {
+	color: #8f8f8f;
+}
+
+
+/* footer */
 
 footer {
 	background-color: #1f1e1e;

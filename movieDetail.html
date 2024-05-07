@@ -50,11 +50,13 @@
                     <label for="rate2">★</label>
                     <input type="radio" name="reviewStar" value="1" id="rate1">
                     <label for="rate1">★</label>
-
                 </fieldset>
+
                 <div>
-                    <input class="review" type="text" placeholder="관람평 작성" />
-                    <button type="button" class="review_btn">등록</button>
+                    <input type="text" id="review" class="review" placeholder="관람평 작성"/>
+                    <button onclick="newRegister(); return false;">등록</button>
+                </div>
+                <div id="my_review">    
                 </div>
             </form>
         </div class="container">		
