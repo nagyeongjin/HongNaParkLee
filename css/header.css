@@ -45,12 +45,13 @@ ul, ol{
     text-align: center;
 
  }
-.dropbtn{
+
+ .dropbtn{
     border : 1px solid rgb(108, 108, 108);
     border-radius : 4px;
-    background-color: #ffffff;
+    /* background-color: #ffffff; */
     font-weight: 400;
-    color : rgb(37, 37, 37);
+    color : rgb(255, 255, 255);
     padding : 12px;
     width :80px;
     text-align: center;
@@ -70,7 +71,7 @@ ul, ol{
 .dropdown-content a{
     display : block;
     text-decoration : none;
-    color : rgb(37, 37, 37);
+    color : rgb(226, 225, 225);
     font-size: 15px;
     font-family : 'Material Icons';
 
@@ -78,7 +79,7 @@ ul, ol{
 }
   
 .dropdown-content a:hover{
-    background-color : #ececec
+    background-color : #313131
 }
   
 .dropdown:hover .dropdown-content {
