@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>회원관리(관리자ver)</title>
+    <link rel="stylesheet" href="">
+</head>
+
+<body>
+    <div class="wrap">
+        <h1>회원관리(관리자ver)</h1>
+        <form class="listform" action="" method="post">
+            <table border="1">
+                <tr>
+                    <th width="20"><input type="checkbox" id="selectAll"></th>
+                    <th class="num" width="50">번호</th>
+                    <th class="userNo" width="100">회원번호</th>
+                    <th class="nickname"width="100">닉네임</th>
+                    <th class="id" width="100">아이디</th>
+                    <th class="name"width="80">이름</th>
+                    <th class="tel"width="180">연락처</th>
+                    <th class=""width="80">게시글수</th>
+                    <th class="regiDate"width="100">가입일자</th>
+                </tr>
+                <tr align="center">
+                    <td><input type="checkbox" class="memberCheckbox"></td>
+                    <td>test1</td>
+                    <td>test1</td>
+                    <td>
+                        <a href="./editMovie.html">test1</a>
+                    </td>
+                    <td>test1</td>
+                    <td>test1</td>
+                    <td>test1</td>
+                    <td>test1</td>
+                    <td>test1</td>
+                </tr>
+                <tr align="center">
+                    <td><input type="checkbox" class="movieCheckbox"></td>
+                    <td>test2</td>
+                    <td>test2</td>
+                    <td>
+                        <a href="./editMovie.html">test2</a>
+                    </td>
+                    <td>test2</td>
+                    <td>test2</td>
+                    <td>test2</td>
+                    <td>test2</td>
+                    <td>test2</td>
+                </tr>
+                <tr>
+                    <td colspan="8" align="center">
+                        <a href=""><<</a>
+                        <a href="">1</a>
+                        <a href="">2</a>
+                        <a href="">3</a>
+                        <a href="">4</a>
+                        <a href="">5</a>
+                        <a href="">6</a>
+                        <a href="">7</a>
+                        <a href="">8</a>
+                        <a href="">9</a>
+                        <a href="">>></a>
+                    </td>
+                    <td align="center">
+                        <a href="./addMovie.html">등록</a>
+                        <a href=""><button onclick="alert('삭제 완료!')">삭제</button></a>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+
+    <script src="./js/movieList.js"></script>
+</body>
+</html>
