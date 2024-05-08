@@ -18,20 +18,15 @@ ul, ol{
 
 
 .logo{
+    margin-top: 30px;
     text-align: center;
-   
+    transform: scale(1.2);
 }
 .menu{
   text-align: right;
   margin: 80px;
 
 }
-.menu img{
-
-     width: 70%
-
-}
-
 
 .dropdown{
 

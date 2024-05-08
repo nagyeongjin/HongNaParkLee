@@ -1,0 +1,163 @@
+@charset "UTF-8";
+
+/*header --> */
+* {
+	margin:0;
+	padding:0;
+	background-color: #1f1e1e;
+}
+
+.wrap {
+	width:100%;
+	margin:0 auto;
+	background-color: #1f1e1e;
+}
+
+
+ul, ol{
+    list-style: none;
+}
+
+
+.logo{
+    margin-top: 30px;
+    text-align: center;
+    transform: scale(1.2);
+}
+
+.menu{
+  text-align: right;
+  margin: 80px;
+
+}
+.menu img{
+
+     width: 70%
+
+}
+
+.dropdown{
+
+    position : relative;
+    display : inline-block;
+    
+
+  }
+
+
+.dropbtn{
+     font-family : 'Material Icons';
+    text-align: center;
+    border : 1px solid rgb(108, 108, 108);
+    border-radius : 4px;
+    /* background-color: #ffffff; */
+    font-weight: 400;
+    color : rgb(255, 255, 255);
+    padding : 12px;
+    width :80px;
+    text-align: center;
+
+    cursor : pointer;
+    font-size : 15px;
+}
+.dropdown-content{
+    display : none;
+    position : absolute;
+    z-index : 1; /*다른 요소들보다 앞에 배치*/
+    font-weight: 400;
+    background-color: #f9f9f9;
+    min-width : 80px;
+  }
+  
+.dropdown-content a{
+    display : block;
+    text-decoration : none;
+    color : rgb(226, 225, 225);
+    font-size: 15px;
+    font-family : 'Material Icons';
+
+    padding : 12px 20px;
+}
+  
+.dropdown-content a:hover{
+    background-color : #313131
+}
+  
+.dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+/* <-- header */
+
+.main1{
+  margin-top: 100px;
+    font-size: 22px;
+    font-weight: normal;
+    text-align: center;
+    padding: 20px 0;
+    
+    
+
+}
+
+.search-txt{
+    width:800px;
+	background:#ccc;
+	color:#313030;
+	font-size: 18px;
+	font-weight: bolder;
+	padding: 10px 0 10px 10px;
+
+
+}
+.search-btn{
+    font-size:18px;
+	color:#d1d1d1;
+	cursor:pointer;
+	padding: 10px;
+}
+
+
+.main2 {
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 20px;
+    margin-top:50px;
+    margin-bottom: 20px;
+}
+.genreTitle{
+    text-align: left;
+    padding-left: 100px;
+    margin-bottom: 80px;
+    color: #f9f9f9;
+}
+.main3 {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 20px;
+    margin-bottom: 20px;
+    
+}
+.yearTitle{
+    text-align: left;
+    padding-left: 100px;
+    margin-bottom: 80px;
+    color: #f9f9f9;
+}
+.main4{
+  text-align: center;
+  margin-top: 80px;
+ 
+
+}
+.main4 li{
+  display: flex;
+  font-size: 20px;
+  justify-content: space-between;
+  padding: 10px 0;
+  border-bottom: 1px solid #ccc;
+ 
+  margin-bottom: 20px;
+}
