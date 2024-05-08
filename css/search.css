@@ -9,91 +9,68 @@
 	margin:0 auto;
 }
 
-header {
-	position:relative;
-	margin-top: 150px;
-}
-
 .search {
 	width:700px;
-	margin-top: 150px;
 	margin: auto;
 	margin-bottom: 150px;
+	padding-top: 150px;
 }
 
 .search .search-field {
-	width:600px;
+	width:550px;
 	background:#ccc;
-	color:#313030;
 	font-size: 18px;
 	font-weight: bolder;
-	padding: 10px 0 10px 10px;
+	padding: 15px;
 }
 
-.search .btn {
+button {
 	font-size:18px;
-	color:#d1d1d1;
+	color:#ccc;
 	cursor:pointer;
-	padding: 10px;
-}
-
-.line {
-	border: solid 5px;
-	color: #2E2E2E;
-	margin-top: -2px;
-	margin-bottom:-2px;
-}
-
-.main {
-	margin-top: 20px;
+	padding: 14px;
 }
 
 .box {
-	width:1280px;
 	margin-bottom:80px;
 	display: flex;
 	justify-content: space-around;
 }
 
-.box .movie {
-	width:250px;
-}
-
-.movie-image a {
+.movie a {
 	float:left;
 	width:250px;
 	height:300px;
 	position:relative;
-	margin-bottom: 8px;
+	margin-bottom: 10px;
 }
 
-.movie-image img {
+.movie img {
 	width:250px;
 	height:300px;
 }
 
 .movie .name {
 	font-weight:bold;
-	color:#ece9e9;
-	font-size: 16px;
+	color:#ccc;
+	font-size: 20px;
 	text-align:center;
 	display:block;
 }
 
 
 
-/* footter */
+/* footer */
 footer {
-	margin-top: 70px;
+	margin-bottom:70px;
 	margin-right:50px;
 }
 
 .footer_info {
-	color: #8f8f8f;
+	color: #ccc;
 	margin-left: 300px;
 	font-size:15px;
 	padding: 50px 0;
-	width: 80%;
 }
 
 .team_name {
@@ -112,4 +89,8 @@ footer {
 	display: inline; 
 	padding-right: 16px; 
 	margin-right:10px;
+}
+
+.footer_info a {
+	color: #ccc;
 }
