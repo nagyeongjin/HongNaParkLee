@@ -32,6 +32,7 @@ ul, ol{
 
 }
 
+
 .dropdown{
 
     position : relative;
@@ -40,13 +41,10 @@ ul, ol{
 
   }
 
-.dropbtn_icon{
-    font-family : 'Material Icons';
-    text-align: center;
-
- }
 
  .dropbtn{
+    font-family : 'Material Icons';
+    text-align: center;
     border : 1px solid rgb(108, 108, 108);
     border-radius : 4px;
     /* background-color: #ffffff; */
